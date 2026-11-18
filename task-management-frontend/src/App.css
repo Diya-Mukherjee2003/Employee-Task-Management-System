@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 30px;
+
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar button {
+    margin-left: 15px;
+}
+
+
+/* AUTH */
+
+.auth-container {
+    width: 400px;
+
+    margin: 70px auto;
+
+    padding: 30px;
+
+    background: white;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+}
+
+.auth-container h1,
+.auth-container h2 {
+    text-align: center;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.auth-container input,
+.auth-container select,
+.auth-container button {
+    padding: 12px;
+
+    font-size: 15px;
+}
+
+
+/* DASHBOARD */
+
+.dashboard {
+    padding: 30px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* TASK */
+
+.task-card {
+    background: white;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin: 15px 0;
+
+    max-width: 700px;
+}
+
+.task-card button,
+.task-card select {
+    padding: 9px;
+
+    margin: 5px;
+}
+
+
+/* CREATE FORM */
+
+.dashboard form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    max-width: 600px;
+}
+
+.dashboard input,
+.dashboard textarea,
+.dashboard button {
+    padding: 12px;
+
+    font-size: 15px;
+}
+
+.dashboard textarea {
+    min-height: 120px;
+}
+
+
+/* MESSAGES */
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
